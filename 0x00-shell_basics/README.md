@@ -9,3 +9,4 @@ mv /tmp/betty /tmp/My_first_directory move betty file to My_first_directory in t
 rm /tmp/my_first_directory/betty remove the betty file from my_firsr_directory
 rmdir remove the my_first_directory
 cd - change current directory to the previous one
+ls -al . .. /boot list all filless and the hidden files in the currernd and previous directory and in boot directory in that order
