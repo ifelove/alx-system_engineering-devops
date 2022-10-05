@@ -22,3 +22,4 @@ mv [A-Z]* /tmp/u move all the files starting with uppercase to /tmp/u
 mkdir -p welcome/to/school create welcome directory,to directory and school directory in that order
 
 ls -apm | sort -d listing of file hidden,seperated with commas and sorting alphabetical order
+0 string SCHOOL school data;!: school the script to detect file data type
