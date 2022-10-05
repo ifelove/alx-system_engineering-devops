@@ -18,3 +18,5 @@ cp -u *.html ../ to copy and update all html file in current directory and updat
 mv [A-Z]* /tmp/u move all the files starting with uppercase to /tmp/u
 
 *~ remove are the files ending with ~
+
+mkdir -p welcome/to/school create welcome directory,to directory and school directory in that order
