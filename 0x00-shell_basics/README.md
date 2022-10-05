@@ -11,3 +11,5 @@ rmdir remove the my_first_directory
 cd - change current directory to the previous one
 ls -al . .. /boot list all filless and the hidden files in the currernd and previous directory and in boot directory in that order
 file /tmp/iamafile show the type of the file
+
+In -s /bin/ls _ls_ create a symbolic to /bin/ls,the symbolic is named _ls_
