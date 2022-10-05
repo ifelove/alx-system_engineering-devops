@@ -15,3 +15,4 @@ file /tmp/iamafile show the type of the file
 In -s /bin/ls _ls_ create a symbolic to /bin/ls,the symbolic is named _ls_
 
 cp -u *.html ../ to copy and update all html file in current directory and update it in the parent directory
+mv [A-Z]* /tmp/u move all the files starting with uppercase to /tmp/u
