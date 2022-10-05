@@ -7,3 +7,4 @@ ls -na is used to display current directory content in long format,the user and 
 mkdir /tmp/My_first_directory create a My_first_directory in tmp
 mv /tmp/betty /tmp/My_first_directory move betty file to My_first_directory in tmp
 rm /tmp/my_first_directory/betty remove the betty file from my_firsr_directory
+rmdir remove the my_first_directory
