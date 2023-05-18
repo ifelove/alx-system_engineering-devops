@@ -32,3 +32,20 @@ defaults
         errorfile 502 /etc/haproxy/errors/502.http
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
+
+frontend  awedaife-frontend
+        bind *:80
+        mode http
+	bind *:443 ssl crt /etc/haproxy/certs/www.awedaife.tech.pem
+        redirect scheme https if !{ ssl_fc }
+        default_backend awedaife-backend
+backend awedaife-backend
+        balance roundrobin
+        server 93511-web-01 100.25.0.178:80 check
+        server 93511-web-02 100.25.132.212:80 check
+
+listen http-in
+        bind :80
+        balance roundrobin
+        server 93511-web-01 100.25.0.178:80 check
+        server 93511-web-02 100.25.132.212:80 check
